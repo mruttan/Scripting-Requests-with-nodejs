@@ -3,7 +3,7 @@ function getAndPrintHTML (options) {
 	/* Add your code here */
 	var https = require('https');
 
-	https.get(requestOptions, function (response) {
+	https.get(options, function (response) {
 
 		var combined_chunks = "";
 
